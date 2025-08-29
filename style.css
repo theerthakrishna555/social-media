@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #bc7450;
+    --secondary-color: #8b5cf6;
+    --accent-color: #06b6d4;
+    
+}
+
+
+body {
+    background-color: var(--primary-color);
+}
+
+.primary-color{
+    background-color: var(--primary-color);
+}

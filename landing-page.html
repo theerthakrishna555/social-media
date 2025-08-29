@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
+
+    
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -17,12 +19,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
 
-<body>
+        <!-- css -->
+         <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    .image>img {
+        width: 800px;
+        height: 700px;
+    }
+
+    .container1{
+        width: 500px;
+        height: 500px;
+
+    }
+</style>
+
+<body class="vh-100  primary-color">
     <!-- nav start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light  primary-color ">
+        <div class="container  ">
             <a class="navbar-brand" href="#"> <i class="fa-solid fa-blog"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -45,12 +62,29 @@
                 </ul>
                 <form class="d-flex me-3">
                     <button class="btn btn-outline-dark me-3" type="submit"> log in</button>
-                     <button class="btn btn-outline-dark" type="submit"> sign up</button>
+                    <button class="btn btn-outline-dark" type="submit"> sign up</button>
                 </form>
             </div>
         </div>
     </nav>
     <!-- nav end -->
+    <div class="d-flex  justify-content-between ">
+        <div class="container1     text-center mt-5 ms-5 ">
+                <h2 class=" fw-bold display-4 main-head mb-4 mt-5">Social media</h2>
+            <p class="mt-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo excepturi minus in. Pariatur aperiam
+                et
+                repellat cupiditate non adipisci eius error? Tempore pariatur totam dolores impedit laborum hic eaque.
+            </p>
+            <button class="btn btn-outline-dark">Learb more</button>
+        </div>
+
+        <div class="image">
+            <img class="shadow-lg " src="./images/pexels-daliladalprat-2055500.jpg" alt="">
+        </div>
+
+        
+    </div>
+
 
 
 
